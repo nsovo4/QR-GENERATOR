@@ -85,7 +85,13 @@ button:hover {
 }
 
 footer {
-    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f4f4f4;
+    padding: 15px;
+    text-align: center;
     font-size: 14px;
 }
 
@@ -100,9 +106,7 @@ footer a:hover {
 }
 
 .dark-mode footer {
+    background: #121212;
     color: #ccc;
 }
 
-.dark-mode footer a {
-    color: #0f9d58;
-}
