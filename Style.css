@@ -83,3 +83,26 @@ button:hover {
 .dark-mode #downloadBtn {
     color: #0f9d58;
 }
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.dark-mode footer {
+    color: #ccc;
+}
+
+.dark-mode footer a {
+    color: #0f9d58;
+}
